@@ -1,0 +1,28 @@
+.listLink {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.home {
+    text-shadow: none;
+    background-image: none;
+}
+
+.layout {
+    margin: 3rem auto;
+    max-width: 650;
+    padding: 0 1rem;
+}
+
+.header {
+    margin-bottom: 1.5rem;
+}
+
+.nav {
+    list-style: none;
+    float: right;
+}
+
+h3 {
+    display: inline;
+}

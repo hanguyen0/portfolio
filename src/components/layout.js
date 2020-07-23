@@ -1,20 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
+import styles from './layout.module.css'
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <li className={styles.listLink}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
 
 export default function Layout({ children }) {
   return (
-    <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
-      <header style={{ marginBottom: `1.5rem` }}>
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 style={{ display: `inline` }}>Ha Nguyen</h3>
+    <div className={styles.layout}>
+      <header className={styles.header}>
+        <Link to="/" className={styles.home}>
+          <h3 >Ha Nguyen</h3>
         </Link>
-        <ul style={{ listStyle: `none`, float: `right` }}>
+        <ul className={styles.nav}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/contact/">Contact</ListLink>
