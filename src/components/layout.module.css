@@ -1,3 +1,9 @@
+.layout {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 0 1rem;
+}
+
 .listLink {
     display: inline-block;
     margin-right: 1rem;
@@ -8,11 +14,6 @@
     background-image: none;
 }
 
-.layout {
-    margin: 3rem auto;
-    max-width: 650;
-    padding: 0 1rem;
-}
 
 .header {
     margin-bottom: 1.5rem;
@@ -23,6 +24,12 @@
     float: right;
 }
 
-h3 {
+h3{
     display: inline;
+    font-size: 2rem;
+    text-shadow: 2px 2px 0px #ecac7b;
+}
+
+h3:hover {
+    border-bottom: 2px solid #1ca086;
 }

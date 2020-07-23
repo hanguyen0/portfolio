@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styles from './layout.module.css'
+import Footer from './footer'
 
 const ListLink = props => (
   <li className={styles.listLink}>
@@ -22,6 +23,7 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
+      <Footer />
     </div>
   )
 }
