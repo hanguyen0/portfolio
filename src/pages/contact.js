@@ -9,7 +9,6 @@ export default function Contact() {
                 <a href="mailto:nguyha@example.com">nguyha@gmail.com</a>
             </p> */}
             <form action="mailto:mailto:nguyha@gmail.com" method="GET" target="_blank">
-    {/* <h1 class="title">Start Email to chriscoyier@gmail.com</h1> */}
                 <div>
                     <label for="subject">Subject</label>
                     <input name="subject" id="subject" type="text" class="input" value="Example Email Subject"/>

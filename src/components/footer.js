@@ -22,7 +22,9 @@ export default function Footer() {
                     </span>
                 </a>
                 <a href="mailto:nguyha16@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <span>
                     <FaEnvelopeSquare />
+                    </span>
                 </a>
             </div>
         </footer>
