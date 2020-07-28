@@ -1,7 +1,12 @@
 html {
-    background-color: rgb(247, 228, 212);
+    background-color: rgb(250, 247, 244);
 }
 
 #profilePic {
+    width: 50%;
+    height: 50%;
+}
+
+#aboutMe {
     
 }
