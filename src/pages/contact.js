@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import styles from './contact.module.css'
+// import styles from './contact.module.css'
 
 export default function Contact() {
     return (
@@ -9,22 +9,25 @@ export default function Contact() {
             <form method="post" action="#">
                 <label>
                     Name
-                    <input type="text" name="name" id="name" placeholder="Jane Doe"/>
+                    <br/>
+                    <input type="text" name="name" id="name" placeholder="Jane Doe" required/>
                 </label>
                 <label>
                     Email
-                    <input type="email" name="email" id="email" placeholder="jane_doe@example.com"/>
+                    <br/>
+                    <input type="email" name="email" id="email" placeholder="jane_doe@example.com" required/>
                 </label>
                 <label>
                     Subject
-                    <input type="text" name="subject" id="subject" placeholder="Hello"/>
+                    <br/>
+                    <input type="text" name="subject" id="subject" placeholder="Hello" required/>
                 </label>
                 <label>
                     Message
-                    <textarea name="message" id="message" rows="5" placeholder="What's up?"/>
+                    <br/>
+                    <textarea name="message" id="message" rows="5" placeholder="What's up?" required/>
                 </label>
                 <button type="submit">Send</button>
-                {/* <input type="reset" value="Clear" /> */}
             </form>
         </Layout>
     )

@@ -1,5 +1,25 @@
 form {
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+}
+input, textarea {
+    background-color: #cef7ee;
+    margin: 7px;
+    width: 100%;
+    border: 0;
+    box-shadow: 0 0 8px 2px rgb(140, 152, 163);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 0;
+}
+
+button {
+    padding: 5px;
+    background-color: #1ca086;
+    border-radius: 5px;
+    border: 0;
+}
+
+h4, form {
+    margin-left: 100px;
 }
