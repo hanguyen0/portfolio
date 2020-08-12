@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import styles from './layout.module.css'
 import Footer from './footer'
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ListLink = props => (
   <li className={styles.listLink}>
