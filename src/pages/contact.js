@@ -74,26 +74,3 @@ function Contact() {
             
 export default Contact;
     
-             {/* <form method="POST" action="https://getform.io/f/766b7df6-c659-40a8-8d85-45fe9785bff4">
-                 <label htmlFor="name">
-                     Name
-                     <br/>
-                     <input type="text" name="name" id="name" placeholder="Jane Doe" required="required"/>
-                 </label>
-                 <label htmlFor="email">
-                     Email
-                     <br/>
-                     <input type="email" name="email" id="email" placeholder="jane_doe@example.com" required="required"/>
-                 </label>
-                 <label htmlFor="subject">
-                     Subject
-                     <br/>
-                     <input type="text" name="subject" id="subject" placeholder="Hello" required="required"/>
-                 </label>
-                 <label htmlFor="message">
-                     Message
-                     <br/>
-                     
-                 </label>
-                 <button type="submit">Send</button>
-             </form> */}
