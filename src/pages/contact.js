@@ -40,21 +40,13 @@ function Contact() {
     
           <div>
           <h4>I'd love to talk! Send me a message.</h4>
-              <div className="col-md-8 mt-5">
-                  <form onSubmit={handleOnSubmit}>
-                  <div className="form-group">
-                    <label htmlFor="exampleInputEmail1" required="required">Email address</label>
-                    <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                  </div> 
-                  <div className="form-group">
-                    <label htmlFor="exampleInputName">Name</label>
-                    <input type="text" name="name" className="form-control" id="exampleInputName" placeholder="Enter your name" required="required"/>
-                  </div>
-                  <div className="form-group">
-                    <label>Message</label>
-                    <textarea name="message" id="message" rows="5" placeholder="What's up?" required="required"/>
-                  </div>
-                  <button type="submit" className="btn btn-primary"  disabled={serverState.submitting}>
+          <hr/>
+              <div className={styles.contact}>
+                  <form onSubmit={handleOnSubmit} className={styles.form}>
+                    <input type="email" name="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+                    <input type="text" name="name" className="form-control" id="exampleInputName" placeholder="Name" required="required"/>
+                    <textarea name="message" id="message" rows="5" placeholder="Message" required="required"/>
+                  <button type="submit" className={styles.button}  disabled={serverState.submitting}>
                       Submit
                   </button>
                   {serverState.status && (
@@ -73,4 +65,3 @@ function Contact() {
 
             
 export default Contact;
-    

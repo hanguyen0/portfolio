@@ -1,8 +1,8 @@
-.layout {
-    margin: 2rem auto;
-    max-width: 900px;
-    padding: 0 1rem;
-}
+/* .layout {
+    background-color: 'var(--bg)';
+    color: 'var(--textNormal)';
+    transition: 'color 0.2s ease-out, background 0.2s ease-out';
+} */
 
 .listLink {
     display: inline-block;
@@ -27,6 +27,5 @@
 h3{
     display: inline;
     font-size: 2rem;
-    /* text-shadow: 2px 2px 0px #f3be89; */
 }
 

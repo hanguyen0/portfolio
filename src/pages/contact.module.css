@@ -1,31 +1,49 @@
-form {
+.contact {
+    font-family: 16px;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+}
+h4 {
+	margin-left: 500px;
+}
+hr{
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+.contact .form {
     display: flex;
     flex-direction: column;
+    font-size: 16px;
 }
-input, textarea {
-    background-color: #cef7ee;
-    margin: 7px;
-    width: 100%;
-    border: 0;
-    box-shadow: 0 0 8px 2px rgb(140, 152, 163);
-    padding: 10px;
-    border-radius: 5px;
-    margin-left: 0;
-}
-
-button {
-    padding: 5px;
-    background-color: #1ca086;
-    border-radius: 5px;
-    border: 0;
+.contact input[type="email"],
+.contact input[type="text"],
+.contact textarea {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #e8e8e8;
+    padding: 10px 7px;
+    margin-bottom: 15px;
+    outline: none;
 }
 
-h4, form {
-    margin-left: 100px;
+.contact .button {
+	background: #da552f;
+	border: solid 1px #da552f;
+	color: white;
+	cursor: pointer;
+	padding: 10px 50px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
+.contact .button:hover {
+	background: #ea532a;
+	border: solid 1px #ea532a;
+}
 
-p {
-    background-color: none;
-    margin-top: 20px;
+.contact textarea {
+	resize: none;
 }

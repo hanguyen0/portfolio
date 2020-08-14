@@ -1,6 +1,7 @@
 
 body {
-    --bg: white;
+  /* #e9e9e9 */
+    --bg: #f1f1f1;
     --textNormal: #222;
     --textTitle: #222;
     --textLink: rgb(112, 110, 110);
@@ -15,16 +16,15 @@ body {
     --bg: rgb(3, 3, 3);
     --textNormal: rgba(255, 255, 255, 0.88);
     --textTitle: white;
-    --textLink: yellow;
+    --textLink: rgb(255, 255, 255);
     --hr: hsla(0, 0%, 100%, 0.2);
   }
 
 .theme-switch-wrapper {
     display: flex;
     align-items: center;
-  
-    
 }
+
 em {
   margin-left: 10px;
   font-size: 1rem;
@@ -63,7 +63,7 @@ em {
   }
   
   input:checked + .slider {
-    background-color: #66bb6a;
+    background-color: #99e59d;
   }
   
   input:checked + .slider:before {

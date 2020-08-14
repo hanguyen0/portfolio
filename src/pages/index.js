@@ -5,8 +5,8 @@ import Pic from '../images/profile_pic.jpeg'
 export default function Home() {
   return (
     <Layout>
-      <p>Hello World</p>
-      <img src={Pic}alt="Profile Pic"></img>
+      {/* <p>Hello World</p> */}
+      {/* <img src={Pic}alt="Profile Pic"></img> */}
       <div>
 
       </div>
